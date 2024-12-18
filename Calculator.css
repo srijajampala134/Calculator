@@ -1,0 +1,47 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    background:linear-gradient(120deg,#677a9f,#0797B4);
+}
+
+.calculator {
+    padding: 20px;
+    background-color:black;
+    border-radius: 10px ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border:3px solid silver;
+    max-height: 100vh;
+    
+}
+
+.buttons .btn-group {
+    display: flex;
+    /*justify-content: space-between;*/
+    margin-bottom: 10px;
+    
+    
+}
+
+.buttons .btn-group button {
+    flex: 1;
+    margin-right: 8px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.buttons .btn-group button:last-child {
+    margin-right: 0;
+}
+h3{
+    color:aliceblue;
+}
+#clear,#lastclear,#modulo{
+    background-color:rgb(180, 73, 27);
+    
+}
+#add,#sub,#div,#mul{
+    background-color: rgb(7, 151, 180);
+}
